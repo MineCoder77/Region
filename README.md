@@ -9,12 +9,13 @@
 
 😋 Add special system, which'll protect your area by your own blocks!
 
-|               Commands                 |                    Description                        |
-| /rg help                               | Information about using region(edit in settings.json) |
-| /rg addmember <region> <playername>    | Add player in region                                  |
-| /rg removemember <region> <playername> | Remove player from region                             |
-| /rg info                               | Information about region                              |
-| -------------------------------------- | ----------------------------------------------------- |
+| ------------------------------------------- | ----------------------------------------------------- |
+|               Commands                      |                    Description                        |
+| /rg help                                    | Information about using region(edit in settings.json) |
+| /rg addmember <region> <playername>         | Add player in region                                  |
+| /rg removemember <region> <playername>      | Remove player from region                             |
+| /rg info                                    | Information about region                              |
+| ------------------------------------------- | ----------------------------------------------------- |
 
 -----
 
