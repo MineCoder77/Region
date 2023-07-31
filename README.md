@@ -1,29 +1,42 @@
-# LiteLoaderBDS C++ Plugin Template
+# 🎁Region Plugin!
 
-The template repository for LiteLoaderBDS C++ plugin development.
+❗ Using SQLiteCpp library(included already).
 
-## Usage
+✨ Supports Minecraft:BE 1.20.
 
-* Write and build your plugin
+| Native language  |    C++   |
+| ----------------- | -------- |
 
-  Please refer to [LiteLoaderBDS C++ Plugin Development Documentation](https://cpp.docs.litebds.com/en/) or [LiteLoaderBDS C++ 插件开发文档](https://cpp.docs.litebds.com/zh-Hans/).
+😋 Add special system, which'll protect your area by your own blocks!
 
-* Edit README.md and LICENSE
+|               Commands                 |                    Description                        |
+| /rg help                               | Information about using region(edit in settings.json) |
+| /rg addmember <region> <playername>    | Add player in region                                  |
+| /rg removemember <region> <playername> | Remove player from region                             |
+| /rg info                               | Information about region                              |
+| -------------------------------------- | ----------------------------------------------------- |
 
-  You ought not to keep the original README.md, for it contains instructions on how to build your own plugin, which might not fit your plugin repository. The README.md of your repository should contain instructions on how to build, install and use your plugin.
+-----
 
-  You don't necessarily want your repository to be open sourced under the Unlicense, so please choose your own license in place of the `LICENSE` file.
+Releases <a href="https://github.com/MineCoder77/Region/releases/tag/Region">here</a>.
 
-## For Beta Developers
+-----
 
-If you would like to experience the latest features for plugins in beta versions of LiteLoaderBDS, you can switch the branch of the SDK to beta. Run the commands below under the plugin repository:
+# 💎 My huge diamond thanks for using this code!
 
+If u want to compilte it by yourself, do the next steps:
+
+1. Download .zip source_code by this command:
 ```sh
-git submodule set-branch --branch beta SDK
-git submodule update --init --remote
+git clone --recurse-submodule https://github.com/MineCoder77/Region.git
 ```
-
-## License
-
-This repository is open source under the Unlicense.
-Please refer to [the license file](LICENSE) for further information.
+2. Unzip it.
+3. Update your SDK:
+```sh
+cd SDK
+git checkout main
+git pull
+```
+3. Edit info about plugin in version.h(if you need).
+4. Compile it!
+-----
