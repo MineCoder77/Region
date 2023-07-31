@@ -20,6 +20,8 @@ Releases <a href="https://github.com/MineCoder77/Region/releases/tag/Region">her
 
 -----
 
+![alt text](assets/Region.jpg "Region example")
+
 # 💎 My huge diamond thanks for using this code!
 
 If u want to compilte it by yourself, do the next steps:
