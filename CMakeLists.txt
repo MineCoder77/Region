@@ -69,6 +69,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 	"${CMAKE_SOURCE_DIR}/SDK/lib/bedrock_server_api.lib"
 	"${CMAKE_SOURCE_DIR}/SDK/lib/bedrock_server_var.lib"
 	"${CMAKE_SOURCE_DIR}/SDK/lib/SymDBHelper.lib"
+	"${CMAKE_SOURCE_DIR}/lib/SQLiteCpp.lib"
+	"${CMAKE_SOURCE_DIR}/lib/sqlite3.lib"
 )
 
 add_custom_command(TARGET ${CMAKE_PROJECT_NAME} PRE_BUILD
