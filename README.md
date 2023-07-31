@@ -9,14 +9,12 @@
 
 😋 Add special system, which'll protect your area by your own blocks!
 
-| [Commands] | [Description] |
-| /rg help | Information about using region(edit in settings.json) |
-| /rg addmember <region> <playername> | Add player in region       |
-| /rg removemember <region> <playername>  Remove player from region |
-| /rg info | Information about region                              |
-| ---------- | --------------------------------------------------- |
-
------
+| Command                                 | Description                                                   |
+| --------------------------------------- | ------------------------------------------------------------- |
+| `/rg help`                              | Information about using region plugin(edit by settings.json)  |
+| `/rg addmember <region> <playername>`   | Add member in region                                          |
+| `/rg removemember <region> <playername>`| Remove member from region                                     |
+| `/rg info`                              | Information about local region                                |
 
 Releases <a href="https://github.com/MineCoder77/Region/releases/tag/Region">here</a>.
 
