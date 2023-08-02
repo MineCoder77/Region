@@ -2,6 +2,8 @@
 
 ❗ Using SQLiteCpp library(included already).
 
+📖 Plugin Lang: RU
+
 ✨ Supports Minecraft:BE 1.20.
 
 | Native language  |    C++   |
