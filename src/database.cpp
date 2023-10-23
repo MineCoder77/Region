@@ -53,7 +53,7 @@ bool initDB() {
 		db->exec("PRAGMA synchronous = NORMAL");
 		db->exec("CREATE TABLE IF NOT EXISTS regions ( \
 			id INTEGER PRIMARY KEY AUTOINCREMENT, \
-			regionName VARCHAT(8) NOT NULL, \
+			regionName VARCHAR(8) NOT NULL, \
 			ownerName TEXT NOT NULL, \
 			minX FLOAT NOT NULL, \
 			minY FLOAT NOT NULL, \
@@ -65,7 +65,7 @@ bool initDB() {
 			);");
 		db->exec("CREATE TABLE IF NOT EXISTS regionMembers ( \
 			id INTEGER PRIMARY KEY AUTOINCREMENT, \
-			regionName VARCHAT(8) NOT NULL, \
+			regionName VARCHAR(8) NOT NULL, \
 			playerName TEXT NOT NULL, \
 			permissionLevel TEXT NOT NULL \
 			);");
